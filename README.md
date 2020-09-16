@@ -1,0 +1,2 @@
+# VKFond
+for hakaton
