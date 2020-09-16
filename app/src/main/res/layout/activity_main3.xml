@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/some_id"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/some_id">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pnh1" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginEnd="315dp"
+                    android:layout_marginRight="315dp"
+                    app:srcCompat="@drawable/weet" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="238dp"
+                    android:layout_marginRight="238dp"
+                    android:text="Название" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:background="@drawable/default_sta"
+                    android:layout_width="294dp"
+                    android:layout_height="36dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/view2"
+                    android:layout_alignLeft="@+id/view2"
+                    android:layout_alignTop="@+id/view2"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Подкаст прекрасных людей" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="-161dp"
+                    android:layout_marginRight="-161dp"
+                    android:layout_toStartOf="@+id/imageView4"
+                    android:layout_toLeftOf="@+id/imageView4"
+                    android:text="Описание подкаста" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="337dp"
+                    android:layout_height="69dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="155dp"
+                    android:layout_marginEnd="38dp"
+                    android:layout_marginRight="38dp"
+                    android:background="@drawable/default_sta" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view3"
+                    android:layout_alignStart="@+id/view3"
+                    android:layout_alignLeft="@+id/view3"
+                    android:layout_marginStart="-12dp"
+                    android:layout_marginLeft="-12dp"
+                    android:layout_marginTop="11dp"
+                    app:srcCompat="@drawable/efault" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="-32dp"
+                    android:layout_marginRight="-32dp"
+                    android:layout_toStartOf="@+id/imageView5"
+                    android:layout_toLeftOf="@+id/imageView5"
+                    app:srcCompat="@drawable/chc2" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_alignStart="@+id/imageView6"
+                    android:layout_alignLeft="@+id/imageView6"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="70dp"
+                    app:srcCompat="@drawable/chc2" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView7"
+                    android:layout_alignStart="@+id/imageView7"
+                    android:layout_alignLeft="@+id/imageView7"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="23dp"
+                    app:srcCompat="@drawable/chc1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/imageView7"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:text="Исключить эпизод из экспорта"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:layout_toRightOf="@+id/imageView6"
+                    android:text="Ненормативный контент"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView6"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@+id/imageView9"
+                    android:layout_toRightOf="@+id/imageView9"
+                    android:text="Трейлер подкаста"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:text="Кому доступен данный подкаст" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Всем пользователям" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="53dp"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginTop="7dp"
+                    android:text="При публикации записи с эпизодом,он становиться
+доступным для всех пользователей" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView11"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="26dp"
+                    app:srcCompat="@drawable/y_regular1" />
+
+                <Button
+                    android:id="@+id/but22"
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView10"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginLeft="44dp"
+                    android:background="@drawable/ss"
+                    android:layout_marginTop="-1dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/view3"
+                    android:layout_alignLeft="@+id/view3"
+                    android:layout_alignTop="@+id/view3"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Подкаст, который рассказывает про то,
+как много в мире прекрасных людей" />
+
+                <Button
+                    android:id="@+id/but222"
+                    android:layout_width="323dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="-68dp"
+                    android:background="@drawable/ss"
+                    android:text="" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
